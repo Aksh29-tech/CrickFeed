@@ -10,5 +10,5 @@ public interface MatchService {
 
     List<Match> getLiveMatches();
 
-    List<Map<String, String>> getPointTable();
+    List<List<String>> getPointTable();
 }
